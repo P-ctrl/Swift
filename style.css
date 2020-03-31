@@ -1,0 +1,39 @@
+@font-face {
+    font-family: coco-font;
+    src: url("Cocogoose Pro-trial.ttf");
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+a.nav-link {
+    border: 2px solid transparent;
+    border-radius: 5em;
+}
+a.nav-link:hover {
+    border: 2px solid white;
+    border-radius: 5em;
+}
+
+div.card {
+    border: 2px solid transparent;
+    border-radius: 0.5em;
+}
+
+div.card:hover {
+    border: 2px solid white;
+    border-radius: 0.5em;
+}
+
+.coco-font {
+    font-family: 'coco-font', Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4.5rem;
+    height: 4.5rem;
+}
