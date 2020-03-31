@@ -1,6 +1,6 @@
 @font-face {
-    font-family: coco-font;
-    src: url("Cocogoose Pro-trial.ttf");
+    font-family: "Cocogoose";
+    src: url("Cocogoose Pro-trial.ttf") format("ttf");
 }
 
 .bg-black {
@@ -26,8 +26,8 @@ div.card:hover {
     border-radius: 0.5em;
 }
 
-.coco-font {
-    font-family: 'coco-font', Arial, Helvetica, sans-serif;
+* {
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
 }
 
 .icon {
