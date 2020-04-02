@@ -10,20 +10,26 @@
 a.nav-link {
     border: 2px solid transparent;
     border-radius: 5em;
+    width: 6em;
 }
 a.nav-link:hover {
     border: 2px solid white;
     border-radius: 5em;
 }
 
-div.card {
+div.about-card {
     border: 2px solid transparent;
-    border-radius: 0.5em;
+    border-radius: 4em;
+    padding: 1rem;
+    min-width: 17vw;
+    width: 300px;
+    min-height: 28vh;
+    height: 418px;
 }
 
-div.card:hover {
+div.about-card:hover {
     border: 2px solid white;
-    border-radius: 0.5em;
+    border-radius: 4em;
 }
 
 * {
@@ -34,21 +40,22 @@ div.card:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 52px;
+    height: 52px;
 }
 
-@media screen and (min-width:768px){
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        background-color: #eee;
-    }
-    .navbar>.container .navbar-brand-centered, 
-    .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52px;
+    height: 52px;
+}
+
+.about-text {
+    max-width: 1000px;
+}
+
+p {
+    color: #bbbbbb;
 }
