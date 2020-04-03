@@ -32,6 +32,19 @@ div.about-card:hover {
     border-radius: 4em;
 }
 
+div.team-card {
+    border: 2px solid transparent;
+    border-radius: 2em;
+    padding: 1rem;
+    max-width: 380px;
+    max-height: 680px;
+}
+
+div.team-card:hover {
+    border: 2px solid white;
+    border-radius: 2em;
+}
+
 * {
     font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
 }
